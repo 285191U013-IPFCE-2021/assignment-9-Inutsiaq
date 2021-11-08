@@ -7,21 +7,45 @@
 #include <stdbool.h>		/* bool, true, false */
 #include "dfs.h"
 
+/* i have made a little bit of the code, but i am unable to complete code it */
 
 void DFT (node * root)
 {
-	// Implement DFS
-	// Hint: You can use print_node, print_tree and/or print_stack.
+  node *t = root;
+  if (t->lchild != NULL)
+  {
+    t = t->lchild;
+  }
+  else if (t->lchild == NULL)
+  if (t->rchild != NULL)
+  {
+    t = t->rchild;
+  }
+  if (t->lchild == NULL && t->rchild == NULL)
+  {
+    
+
+
+  }
+
+return 0;
 }
 
 node *make_node (int num, node * left, node * right)
 {
-	return 0;
+  struct node* make_node = (struct node*)
+  malloc(sizeof(struct node));
+  {
+    int num = num;
+    bool visited = true;
+    struct node *lchild;
+    struct node *rchild;
+  }
 }
 
 void free_node (node * p)
 {
-	
+	free(p);
 }
 
 
@@ -58,6 +82,8 @@ void print_tree (node * p, int depth)
 
 stack *push (stack * topp, node * node)
 {
+  
+
 	return 0;
 }
 

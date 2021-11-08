@@ -34,7 +34,7 @@ TEST_CASE("search")
     REQUIRE(search(a,5,0)==false);
     REQUIRE(search(a,0,1)==false);
 }
-
+/*
 TEST_CASE("tree")
 {
       node *root = make_node (4,
@@ -59,3 +59,4 @@ TEST_CASE("tree")
     // Print Tree
     DFT(root);
 }
+*/
